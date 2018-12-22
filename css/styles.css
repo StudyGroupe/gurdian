@@ -1,0 +1,26 @@
+header {
+  width: 980px;
+  margin: 0 auto;
+}
+header p {
+  font-size: 13px;
+}
+
+.navi {
+  display: flex;
+  justify-content: center;
+  background-color: #001754;
+  color: #ffffff;
+  height: 40px;
+  margin-top: 5px;
+}
+.navi p {
+  border-left: 1px solid #ffffff;
+  line-height: 40px;
+  padding: 0 80px;
+}
+.navi p:nth-of-type(4) {
+  border-right: 1px solid #ffffff;
+}
+
+/*# sourceMappingURL=styles.css.map */
