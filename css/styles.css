@@ -17,10 +17,88 @@ header p {
 .navi p {
   border-left: 1px solid #ffffff;
   line-height: 40px;
-  padding: 0 80px;
+  padding: 0 98px;
 }
 .navi p:nth-of-type(4) {
   border-right: 1px solid #ffffff;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+main .main-left {
+  max-width: 700px;
+  width: 100%;
+}
+main .main-left .service {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+main .main-left .service .service_item {
+  width: 33.33%;
+  min-width: 230px;
+  padding-right: 20px;
+}
+main .main-left .service .service_item .service_item_img {
+  width: 100%;
+}
+main .main-left .service .service_item .service_item_img img {
+  width: 100%;
+}
+main .main-left .service .service_item h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+main .main-left .service .service_item p {
+  font-size: 14px;
+}
+main form {
+  width: 700px;
+}
+main form table tr th {
+  line-height: 50px;
+  width: 260px;
+  background-color: #cccccc;
+  border-bottom: 1px solid #ffffff;
+  padding-left: 15px;
+}
+main form table tr td {
+  width: 440px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  padding-left: 15px;
+}
+main form table tr td .name {
+  width: 200px;
+}
+main form table tr td textarea {
+  resize: none;
+  width: 380px;
+  margin: 10px 0;
+}
+main form table tr .name-box {
+  border-top: 1px solid #cccccc;
+}
+main form .submit_btn {
+  margin: 0 auto;
+  width: 100px;
+  text-align: center;
+  display: block;
+  background-color: #cccccc;
+  margin-top: 10px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+main .main-right {
+  width: 260px;
 }
 
 /*# sourceMappingURL=styles.css.map */

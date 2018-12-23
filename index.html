@@ -5,17 +5,107 @@
         <title>guadian</title>
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/base.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
+        <!-- ヘッダー -->
         <header>
             <p>WEB戦略、CMS構想、ホームページ作成・効果アップなら東京のガーディアン</p>
             <img src="images/logo.jpg">
         </header>
+
+        <!-- ナビゲーション -->
         <div class="navi">
             <p>ナビ１</p>
             <p>ナビ２</p>
             <p>ナビ３</p>
             <p>ナビ４</p>
         </div>
+
+        <!-- メイン -->
+        <main>
+            <div class="main-left">
+                <div class="service">
+                    <div class="service_item">
+                        <div class="service_item_img">
+                            <img src="images/freely.jpg" alt="">
+                        </div>
+                        <h3>hoge</h3>
+                        <p>aaaaaaaaaaaaaaaaaaaa</p>
+                    </div>
+                    <div class="service_item">
+                        <div class="service_item_img">
+                            <img src="images/freely.jpg" alt="">
+                        </div>
+                        <h3>hoge</h3>
+                        <p>aaaaaaaaaaaaaaaaaaaa</p>
+                    </div>
+                    <div class="service_item">
+                        <div class="service_item_img">
+                            <img src="images/freely.jpg" alt="">
+                        </div>
+                        <h3>hoge</h3>
+                        <p>aaaaaaaaaaaaaaaaaaaa</p>
+                    </div>
+                </div>
+
+                <form class="" action="index.html" method="post">
+                    <table>
+                        <tr>
+                            <th>名前</th>
+                            <td class="name-box"><input class="name" type="text"></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th>年齢</th>
+                            <td>
+                                <select name="age">
+                                    <option value="20代">20代</option>
+                                    <option value="30代">30代</option>
+                                    <option value="40代">40代</option>
+                                    <option value="50代">50代</option>
+                                    <option value="60代">60代</option>
+                                    <option value="70代">70代</option>
+                                    <option value="80代">80代</option>
+                                    <option value="90代">90代</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th>性別</th>
+                            <td>
+                                <input type="radio" name="sex" value="male">男
+                                <input type="radio" name="sex" value="female">女
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th>お問い合わせ項目</th>
+                            <td>
+                                <input type="checkbox" name="q1" value="無料相談"> 無料相談
+                                <input type="checkbox" name="q1" value="資料請求"> 資料請求
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th>内容</th>
+                            <td><textarea name="name" rows="8" cols="80"></textarea></td>
+                        </tr>
+                    </table>
+                    <input class="submit_btn" type="submit"　value="送信する">
+                </form>
+            </div>
+
+            <div class="main-right">
+                <img src="images/bannr.gif">
+                <img src="images/bannr.gif">
+                <img src="images/bannr.gif">
+            </div>
+        </main>
     </body>
 </html>
