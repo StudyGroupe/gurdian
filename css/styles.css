@@ -1,0 +1,293 @@
+header {
+  width: 980px;
+  margin: 0 auto;
+}
+header p {
+  font-size: 13px;
+}
+
+.navi {
+  background-color: #001754;
+  color: #ffffff;
+  height: 40px;
+  margin-top: 5px;
+}
+.navi ul {
+  width: 980px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.navi ul li {
+  border-left: 1px solid #ffffff;
+  line-height: 40px;
+  width: 25%;
+  text-align: center;
+}
+.navi ul li:nth-of-type(4) {
+  border-right: 1px solid #ffffff;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+main .main-left {
+  max-width: 700px;
+  width: 100%;
+}
+main .main-left .service-box > p {
+  margin: 10px 0;
+  background-color: #001754;
+  color: #ffffff;
+  line-height: 35px;
+}
+main .main-left .service-box .service {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+main .main-left .service-box .service .service_item {
+  width: 33.33%;
+  min-width: 230px;
+  padding-right: 20px;
+}
+main .main-left .service-box .service .service_item h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+main .main-left .service-box .service .service_item p {
+  font-size: 14px;
+}
+main .main-left .recruit p {
+  font-size: 14px;
+}
+main .main-left .recruit ul {
+  padding: 10px 0;
+}
+main .main-left .recruit ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 14px;
+}
+main .main-left .recruit h3 {
+  color: #001754;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid #001754;
+}
+main .main-left .recruit > p:nth-of-type(1) {
+  margin: 10px 0;
+  background-color: #001754;
+  color: #ffffff;
+  line-height: 35px;
+  font-size: 16px;
+}
+main .main-left .recruit p:nth-of-type(2) {
+  padding: 10px 0;
+}
+main .main-left .recruit p:nth-of-type(2) span {
+  font-weight: bold;
+}
+main .main-left .recruit p:nth-of-type(5) {
+  padding-bottom: 10px;
+}
+main .main-left .know-how p {
+  margin: 10px 0;
+  background-color: #001754;
+  color: #ffffff;
+  line-height: 35px;
+}
+main .main-left .know-how ul li {
+  font-size: 14px;
+}
+main .main-left form {
+  max-width: 700px;
+  padding-bottom: 40px;
+}
+main .main-left form p {
+  margin: 10px 0;
+  background-color: #001754;
+  color: #ffffff;
+  line-height: 35px;
+}
+main .main-left form table tr th {
+  line-height: 50px;
+  width: 260px;
+  background-color: #cccccc;
+  border-bottom: 1px solid #ffffff;
+  padding-left: 15px;
+}
+main .main-left form table tr td {
+  width: 440px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  padding-left: 15px;
+}
+main .main-left form table tr td .name {
+  width: 200px;
+}
+main .main-left form table tr td textarea {
+  resize: none;
+  width: 380px;
+  margin: 10px 0;
+}
+main .main-left form table tr .name-box {
+  border-top: 1px solid #cccccc;
+}
+main .main-left form .submit_btn {
+  margin: 0 auto;
+  width: 100px;
+  text-align: center;
+  display: block;
+  background-color: #cccccc;
+  margin-top: 10px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+main .main-right {
+  width: 260px;
+}
+main .main-right img {
+  padding: 10px 0;
+}
+
+footer {
+  margin-top: 10px;
+  margin: 0 auto;
+  border-top: 1px solid #001754;
+}
+footer img {
+  padding: 10px 0 10px 220px;
+}
+footer p {
+  text-align: center;
+  background-color: #001754;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 980px) {
+  .navi ul {
+    width: 100%;
+  }
+
+  footer img {
+    padding: 10px 0;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    max-width: 700px;
+  }
+  body header p {
+    font-size: 5px;
+  }
+  body .navi ul {
+    width: 100%;
+  }
+  body main .main-left .service-box .service .service_item {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  body main .main-left .service-box .service .service_item p {
+    font-size: 20px;
+  }
+  body main .main-left .service-box .service .service_item h3 {
+    font-size: 20px;
+  }
+  body main .main-left .service-box .service .service_item img {
+    width: 400px;
+    margin: 0 auto;
+  }
+  body main .main-left .recruit p {
+    font-size: 10px;
+  }
+  body table, body tbody, body tr, body th, body td {
+    display: block;
+  }
+  body main .main-left {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  body main .main-left form table tr th {
+    width: 500px;
+    margin: 0 auto;
+  }
+  body main .main-left form table tr td {
+    width: 500px;
+    margin: 0 auto;
+  }
+  body main .main-left form table tr td textarea {
+    resize: none;
+    width: 450px;
+  }
+  body main .main-right {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 480px;
+  }
+  body header p {
+    font-size: 5px;
+  }
+  body .navi ul {
+    width: 100%;
+  }
+  body main .main-left .service-box .service .service_item {
+    width: 380px;
+    margin: 0 auto;
+  }
+  body main .main-left .service-box .service .service_item p {
+    font-size: 20px;
+  }
+  body main .main-left .service-box .service .service_item h3 {
+    font-size: 20px;
+  }
+  body main .main-left .service-box .service .service_item img {
+    width: 380px;
+    margin: 0 auto;
+  }
+  body main .main-left .recruit p {
+    font-size: 10px;
+  }
+  body table, body tbody, body tr, body th, body td {
+    display: block;
+  }
+  body main .main-left {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  body main .main-left form table tr th {
+    width: 380px;
+    margin: 0 auto;
+  }
+  body main .main-left form table tr td {
+    width: 380px;
+    margin: 0 auto;
+  }
+  body main .main-left form table tr td textarea {
+    width: 650px;
+  }
+  body main .main-left form table tr td textarea {
+    resize: none;
+    width: 350px;
+  }
+  body main .main-right img {
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
